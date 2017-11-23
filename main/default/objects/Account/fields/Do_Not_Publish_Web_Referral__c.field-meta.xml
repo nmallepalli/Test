@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Publish_Web_Referral__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Do not publish email address on referral sites</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do not publish email address on referral sites</inlineHelpText>
+    <label>Do Not Publish (Web Referral)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

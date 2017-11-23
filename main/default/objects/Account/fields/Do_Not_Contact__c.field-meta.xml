@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Contact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Do not send email blasts from Essilor; only Brand SC</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do not send email blasts from Essilor; only Brand SC</inlineHelpText>
+    <label>Do Not Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

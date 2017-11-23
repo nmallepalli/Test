@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Lab_Channel__c</fullName>
+    <description>This is the primary channel or the channel that this account does the most business with today.</description>
+    <externalId>false</externalId>
+    <label>Primary Lab Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ELOA</fullName>
+                <default>false</default>
+                <label>ELOA</label>
+            </value>
+            <value>
+                <fullName>IDD</fullName>
+                <default>false</default>
+                <label>IDD</label>
+            </value>
+            <value>
+                <fullName>Integrated Retail</fullName>
+                <default>false</default>
+                <label>Integrated Retail</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>ELOA/IDD</fullName>
+                <default>false</default>
+                <label>ELOA/IDD</label>
+            </value>
+            <value>
+                <fullName>ELOA/Partner</fullName>
+                <default>false</default>
+                <label>ELOA/Partner</label>
+            </value>
+            <value>
+                <fullName>Partner/IDD</fullName>
+                <default>false</default>
+                <label>Partner/IDD</label>
+            </value>
+            <value>
+                <fullName>No Primary</fullName>
+                <default>false</default>
+                <label>No Primary</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Unique identifier for the record in the source system. . In case of composite keys, the value in this column can consist of concatenated parts. 
+Internal field; Should not be exposed to end users.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Unique identifier for the record in the source system</inlineHelpText>
+    <label>Integration ID</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

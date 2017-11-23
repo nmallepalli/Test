@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lab_Location__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup field to the Lab location (Geolocation) record for the Account Detail</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Lookup field to the Lab location (Geolocation) record for the Account Detail</inlineHelpText>
+    <label>Lab Location</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Account Details</relationshipLabel>
+    <relationshipName>LabLocationAccount</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

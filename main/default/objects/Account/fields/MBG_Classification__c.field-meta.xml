@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MBG_Classification__c</fullName>
+    <defaultValue>"UNKNOWN"</defaultValue>
+    <description>Provides a high level classification of the different MBG (e.g. VSP, Eyemed)
+Only applicable to the "Group/Alliance' Record Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Provides a high level classification of the different MBG (e.g. VSP, Eyemed)</inlineHelpText>
+    <label>MBG Classification</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
